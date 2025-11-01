@@ -7,4 +7,4 @@ execute as @e[tag=new,tag=!old] run tag @s add old
 execute as @e[tag=new,tag=old] run tag @s remove new
 
 scoreboard players enable @a start_run
-execute if score @s start_run matches 1.. run schedule function script:main/main_run 1t
+execute if score #system start_run matches 1.. run schedule function script:main/main_run 1t
