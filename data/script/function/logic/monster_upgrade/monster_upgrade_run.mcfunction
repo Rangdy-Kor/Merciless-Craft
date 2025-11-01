@@ -1,1 +1,1 @@
-function script:logic/monster_upgrade/zombies
+execute if entity @e[type=#zombies] run function script:logic/monster_upgrade/zombies
